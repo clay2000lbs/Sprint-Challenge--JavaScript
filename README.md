@@ -26,13 +26,31 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. Briefly compare and contrast `.forEach` & `.map` (2-3 sentences max)
 
+forEach is a loop that applies what ever comes after it what is being looped
+
+.map modifies an array and returns a new one
+
+
 2. Explain the difference between a callback and a higher order function.
+
+callbacks are functions that are passed into other functions.
+
+higher orderfunctions are the functions that invoke callbacks 
 
 3. What is closure?
 
+when a function uses a variable that is not defined inside of that function itself
+
 4. Describe the four rules of the 'this' keyword.
 
+window- this refers to the global window object/ all of javascript
+
+implicit- when a function is called by a dot, this refers to the object that comes before the dot.
+
 5. Why do we need super() in an extended class?
+
+to pass any new attributes back up to the constructor of the parent object.
+
 
 ### Task 1 - Project Set up
 

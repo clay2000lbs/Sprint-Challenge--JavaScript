@@ -16,9 +16,20 @@ function myFunction() {
 }
 myFunction();
 
-// Explanation: 
+// Explanation: Functions can always reach outward for context but not into another code. Internal is within nestedFunctions scope.
+
 
 
 /* Task 2: Counter */
 
 /* Create a function called `sumation` that accepts a parameter and uses a counter to return the summation of that number. For example, `summation(4)` should return 10 because 1+2+3+4 is 10. */
+
+function summation(interger) {
+  let counter = 0;
+  return function() {
+    for (interger; interger > 0; interger--) {
+      counter = counter + interger;
+    }
+    return counter;
+  }
+}
